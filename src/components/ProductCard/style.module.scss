@@ -1,0 +1,35 @@
+.productContainer {
+  width: 1185px;
+  height: 531px;
+  margin: 160px 0 0 0;
+  display: flex;
+  align-items: center;
+  flex-basis: 50%;
+
+  .productInfo {
+    width: 690px;
+  }
+
+  .description {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 9px;
+  }
+
+  .productName {
+    font-size: 64px;
+    line-height: 96px;
+  }
+
+  .productPrice {
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 96px;
+  }
+
+  .productButton {
+    cursor: pointer;
+    width: 98px;
+    height: 98px;
+  }
+}

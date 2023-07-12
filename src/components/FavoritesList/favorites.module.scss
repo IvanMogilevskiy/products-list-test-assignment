@@ -1,0 +1,75 @@
+.favoritesContainer {
+  height: calc(100vh - 275px);
+  width: 407px;
+  margin: 100px 176px 0 100px;
+  padding: 45px 5px 45px 30px;
+  border: 2px dashed #414141;
+  background-color: #ffff;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.favoritesTitle {
+  margin-bottom: 27px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  font-family: 'Anek Telugu', sans-serif;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.favoritesList {
+  height: calc(80vh - 100px);
+  width: 100%;
+}
+
+.favoritesItem {
+  max-width: 347px;
+  height: 130px;
+  padding: 11px 30px 11px 15px;
+  margin-bottom: 20px;
+  background: #FBFBFB;
+  display: flex;
+  position: relative;
+  border-radius: 30px;
+}
+
+.favoriteImg {
+  margin-right: 20px;
+  width: 108px;
+  height: 108px;
+}
+
+.favoritesName {
+  margin: 20px 0 10px;
+  max-width: 184px;
+  height: 48px;
+  font-size: 16px;
+  line-height: 24px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 9px;
+}
+
+.favoritesPrice {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.favoritesButton {
+  cursor: pointer;
+  position: absolute;
+  right: 57px;
+  bottom: 32px;
+}
+
+.favoritesDescription {
+  width: 500px;
+}
